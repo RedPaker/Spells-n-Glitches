@@ -15,11 +15,21 @@ if(!atingiu){
     }
     
     
+    var _ptype = undefined;
+    if (_ptype == undefined) {
+        var _temp = part_system_create(ps_cdhit);
+        var _info = part_system_get_info(_temp);
+        _ptype = _info.emitters[0].parttype.ind;
+        part_system_destroy(_temp);
+    }
+    
+    part_type_direction(_ptype, direcao, direcao, 0, 0);
+    
     var _ps = part_system_create(ps_cdhit);
-    part_system_position(_ps,other.x,other.y);
-    part_system_colour(_ps, #7c6da2, 1); // (system_id, color, alpha)
-    part_system_angle(_ps, direcao);
-    part_system_depth(_ps, -other.y -32);
+    part_system_position(_ps, other.x, other.y);
+    part_system_colour(_ps, #6839e1, 1);
+    part_system_depth(_ps, -other.bbox_bottom - 32);
+
     
 	other.dano_time = 15;
 	
