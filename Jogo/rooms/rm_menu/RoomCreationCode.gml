@@ -6,6 +6,7 @@ global.jogo_pausado = false;
 global.chapter = 1;
 global.inventario_itens = [];
 global.quests = {
+    mouse: false,
     binario: false,
     ram: false,
     css: false

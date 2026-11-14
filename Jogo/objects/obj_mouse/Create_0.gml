@@ -1,12 +1,5 @@
-coletado = false;
-coletado_livro = false;
-
-if (!variable_global_exists("inv")) {
-    global.inv = [];
+if (global.quests.mouse == true) {
+    instance_deactivate_object(self);
+} else {
+    instance_activate_object(self);
 }
-
-if (!variable_global_exists("ataque_desbloqueado")) {
-    global.ataque_desbloqueado = false;
-}
-
-event_inherited();
