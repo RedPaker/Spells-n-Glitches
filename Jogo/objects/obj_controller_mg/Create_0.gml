@@ -1,5 +1,5 @@
 unlocked_spells = {
-    cd:true,
+    cd:false,
     shock:false,
     jukebox:false,
     ventoinha:false,

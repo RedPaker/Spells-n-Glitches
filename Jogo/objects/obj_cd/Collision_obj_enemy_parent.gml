@@ -14,6 +14,8 @@ if(!atingiu){
         _texto.dano = dano
     }
     
+    var _xdir = lengthdir_x(8, direcao);
+    var _ydir = lengthdir_y(8, direcao);
     
     var _ptype = undefined;
     if (_ptype == undefined) {
@@ -23,7 +25,7 @@ if(!atingiu){
         part_system_destroy(_temp);
     }
     
-    part_type_direction(_ptype, direcao, direcao, 0, 0);
+    part_type_direction(_ptype, direcao+_xdir, direcao+_ydir, 0, 0);
     
     var _ps = part_system_create(ps_cdhit);
     part_system_position(_ps, other.x, other.y);
