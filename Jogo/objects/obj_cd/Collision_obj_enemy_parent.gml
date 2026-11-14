@@ -14,9 +14,12 @@ if(!atingiu){
         _texto.dano = dano
     }
     
-    var _texto = instance_create_layer(other.x, other.y-12, "instances",obj_damage_count);
     
-
+    var _ps = part_system_create(ps_cdhit);
+    part_system_position(_ps,other.x,other.y);
+    part_system_colour(_ps, #7c6da2, 1); // (system_id, color, alpha)
+    part_system_angle(_ps, direcao);
+    part_system_depth(_ps, -other.y -32);
     
 	other.dano_time = 15;
 	

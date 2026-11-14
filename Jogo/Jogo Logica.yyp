@@ -20,7 +20,6 @@
     {"$GMFolder":"","%Name":"Interiores","folderPath":"folders/All_these__rooms/Jogo/Interiores.yy","name":"Interiores","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Menu","folderPath":"folders/All_these__rooms/Menu.yy","name":"Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Testes","folderPath":"folders/All_these__rooms/Testes.yy","name":"Testes","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"UnitePaticleSystem","folderPath":"folders/UnitePaticleSystem.yy","name":"UnitePaticleSystem","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ObjectS","folderPath":"folders/ObjectS.yy","name":"ObjectS","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Amigos kkkk (NPCs)","folderPath":"folders/ObjectS/Amigos kkkk (NPCs).yy","name":"Amigos kkkk (NPCs)","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Blocos_livro","folderPath":"folders/ObjectS/Blocos_livro.yy","name":"Blocos_livro","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -55,6 +54,7 @@
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Sprite/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Til e set","folderPath":"folders/Til e set.yy","name":"Til e set","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Typefaces","folderPath":"folders/Typefaces.yy","name":"Typefaces","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"UnitePaticleSystem","folderPath":"folders/UnitePaticleSystem.yy","name":"UnitePaticleSystem","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
@@ -67,6 +67,7 @@
     {"link":"io.gamemaker.gm_filter_mask-1.0.0","name":"io.gamemaker.gm_filter_mask-1.0.0","path":"io.gamemaker.gm_filter_mask-1.0.0.yyp",},
     {"link":"io.gamemaker.gm_filter_vignette-1.0.0","name":"io.gamemaker.gm_filter_vignette-1.0.0","path":"io.gamemaker.gm_filter_vignette-1.0.0.yyp",},
     {"link":"io.gamemaker.gm_filter_screenshake-1.0.0","name":"io.gamemaker.gm_filter_screenshake-1.0.0","path":"io.gamemaker.gm_filter_screenshake-1.0.0.yyp",},
+    {"link":"io.gamemaker.gmparticlepresets-1.0.0","name":"io.gamemaker.gmparticlepresets-1.0.0","path":"io.gamemaker.gmparticlepresets-1.0.0.yyp",},
   ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"Gravação de tela de 2026-08-07 08-39-43.mp4","CopyToMask":-1,"filePath":"datafiles","name":"Gravação de tela de 2026-08-07 08-39-43.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -206,7 +207,9 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"obj_warp_parent","path":"objects/obj_warp_parent/obj_warp_parent.yy",},},
     {"id":{"name":"old_obj_inventory","path":"objects/old_obj_inventory/old_obj_inventory.yy",},},
+    {"id":{"name":"ps_cdhit","path":"particles/ps_cdhit/ps_cdhit.yy",},},
     {"id":{"name":"ps_confetti_test","path":"particles/ps_confetti_test/ps_confetti_test.yy",},},
+    {"id":{"name":"ps_embers","path":"particles/ps_embers/ps_embers.yy",},},
     {"id":{"name":"rm_area55","path":"rooms/rm_area55/rm_area55.yy",},},
     {"id":{"name":"rm_boss_fase1","path":"rooms/rm_boss_fase1/rm_boss_fase1.yy",},},
     {"id":{"name":"rm_boss_final","path":"rooms/rm_boss_final/rm_boss_final.yy",},},
