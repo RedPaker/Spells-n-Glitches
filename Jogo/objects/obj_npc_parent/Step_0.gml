@@ -5,6 +5,7 @@ if (instance_exists(obj_plr_rpg) && distance_to_object(obj_plr_rpg) < reach){
     if (keyboard_check_pressed(input_key)){
         d_create_dialog(dialog, id);
     }
+    foi_tut_binario= true
 } else {
 	can_talk = false;
 }

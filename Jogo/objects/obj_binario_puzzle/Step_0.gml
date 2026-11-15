@@ -63,6 +63,7 @@ if (interagindo) {
 
         } else {
             mensagem = "ERRO!";
+            burro_demais += 1;
         }
 
         interagindo = false;

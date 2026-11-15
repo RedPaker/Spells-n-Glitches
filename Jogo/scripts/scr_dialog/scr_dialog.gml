@@ -235,6 +235,15 @@ function d_select_dialog(_is){
             ]
             
             break;
+        
+        case "binario_certo":
+            return_value = [
+                {
+                    name: "U+003A",
+                    msg: "Boa! Isso deve ter aberto o portao. Vamos la embaixo ver se \n deu certo"
+                }
+            ]
+            break;
                    
     }
     return return_value;
