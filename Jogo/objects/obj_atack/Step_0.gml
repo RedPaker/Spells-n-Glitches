@@ -5,10 +5,10 @@ if (!global.ataque_desbloqueado) {
 
 face = round(obj_plr_rpg.facing/90)*90;
 if (lengthdir_x(1,face)>0) {
-    sprite_index = spr_plr_atkh;
+    sprite_index = spr_plr_atkh_old;
     image_angle = face;
 }else {
-	sprite_index = spr_plr_atk;
+	sprite_index = spr_plr_atk_old;
     image_angle = face+90;
 }
 x = obj_plr_rpg.x + lengthdir_x(atk_dist, face);
