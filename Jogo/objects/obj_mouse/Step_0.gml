@@ -6,7 +6,7 @@ if (place_meeting(x, y, obj_plr_rpg) && keyboard_check_pressed(ord("Z"))) {
 
         var _item_data = {
             nome: "mouse",
-            sprite: sprite_index,
+            sprite: spr_itemmouse_inventory,
             obj: object_index,
             use: use,
             n: n,

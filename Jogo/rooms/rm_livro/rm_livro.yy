@@ -1,17 +1,17 @@
 {
   "$GMRoom":"v1",
-  "%Name":"room_livro",
+  "%Name":"rm_livro",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_52CF2730","path":"rooms/room_livro/room_livro.yy",},
-    {"name":"inst_48A6AD9B","path":"rooms/room_livro/room_livro.yy",},
-    {"name":"inst_5AB8C3AD","path":"rooms/room_livro/room_livro.yy",},
-    {"name":"inst_23A982C8","path":"rooms/room_livro/room_livro.yy",},
-    {"name":"inst_45C29AA0","path":"rooms/room_livro/room_livro.yy",},
-    {"name":"inst_5C1FAABC","path":"rooms/room_livro/room_livro.yy",},
+    {"name":"inst_52CF2730","path":"rooms/rm_livro/rm_livro.yy",},
+    {"name":"inst_48A6AD9B","path":"rooms/rm_livro/rm_livro.yy",},
+    {"name":"inst_5AB8C3AD","path":"rooms/rm_livro/rm_livro.yy",},
+    {"name":"inst_23A982C8","path":"rooms/rm_livro/rm_livro.yy",},
+    {"name":"inst_45C29AA0","path":"rooms/rm_livro/rm_livro.yy",},
+    {"name":"inst_5C1FAABC","path":"rooms/rm_livro/rm_livro.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -45,7 +45,7 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"tls_tileset","path":"tilesets/tls_tileset/tls_tileset.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"room_livro",
+  "name":"rm_livro",
   "parent":{
     "name":"Interiores",
     "path":"folders/All_these__rooms/Jogo/Interiores.yy",

@@ -8,7 +8,11 @@
   ],
   "managed":true,
   "name":"obj_mouse",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_item_parent","path":"objects/obj_item_parent/obj_item_parent.yy",},"propertyId":{"name":"item_name","path":"objects/obj_item_parent/obj_item_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Mouse",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_item_parent","path":"objects/obj_item_parent/obj_item_parent.yy",},"propertyId":{"name":"info","path":"objects/obj_item_parent/obj_item_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Sua forma de defesa principal na jornada, use como um chicote de ataques de curta distancia nos inimigos.",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_item_parent","path":"objects/obj_item_parent/obj_item_parent.yy",},"propertyId":{"name":"throwable","path":"objects/obj_item_parent/obj_item_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+  ],
   "parent":{
     "name":"Itens",
     "path":"folders/ObjectS/Itens.yy",
@@ -35,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_plr_atk",
-    "path":"sprites/spr_plr_atk/spr_plr_atk.yy",
+    "name":"spr_itemmouse_ground",
+    "path":"sprites/spr_itemmouse_ground/spr_itemmouse_ground.yy",
   },
   "spriteMaskId":null,
   "visible":true,

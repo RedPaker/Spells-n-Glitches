@@ -2,7 +2,7 @@
 event_inherited();
 
 hp = 250
-kapows = 1;
+kapows = 5;
 
 default_movespeed = 0.5
 move_spd = 0.5;

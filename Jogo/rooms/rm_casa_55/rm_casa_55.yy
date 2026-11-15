@@ -1,13 +1,13 @@
 {
   "$GMRoom":"v1",
-  "%Name":"room_mouse",
+  "%Name":"rm_casa_55",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_3E3007A5","path":"rooms/room_mouse/room_mouse.yy",},
-    {"name":"inst_22CD5E4B","path":"rooms/room_mouse/room_mouse.yy",},
+    {"name":"inst_3E3007A5","path":"rooms/rm_casa_55/rm_casa_55.yy",},
+    {"name":"inst_22CD5E4B","path":"rooms/rm_casa_55/rm_casa_55.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -42,7 +42,7 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"tls_tileset","path":"tilesets/tls_tileset/tls_tileset.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"room_mouse",
+  "name":"rm_casa_55",
   "parent":{
     "name":"Interiores",
     "path":"folders/All_these__rooms/Jogo/Interiores.yy",
