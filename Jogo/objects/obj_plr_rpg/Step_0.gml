@@ -194,7 +194,7 @@ if (hp <= 0) {
     if (ataque_time > 0) ataque_time--;
 
     if (!curando && keyboard_check_pressed(global.st_use) && ataque_time <= 0 && !instance_exists(obj_dialogo)) {
-        var _distancia = 14;
+        var _distancia = 7;
 
         var _dx = lengthdir_x(_distancia, facing);
         var _dy = lengthdir_y(_distancia, facing);
@@ -211,7 +211,7 @@ if (hp <= 0) {
             atk_dist: _distancia
         });
 
-        ataque_time = 40;
+        ataque_time = 60;
     }
 
     // Dash

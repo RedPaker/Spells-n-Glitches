@@ -343,6 +343,7 @@
     {"id":{"name":"spr_OVERHEAT","path":"sprites/spr_OVERHEAT/spr_OVERHEAT.yy",},},
     {"id":{"name":"spr_pagina","path":"sprites/spr_pagina/spr_pagina.yy",},},
     {"id":{"name":"spr_plr_atk","path":"sprites/spr_plr_atk/spr_plr_atk.yy",},},
+    {"id":{"name":"spr_plr_atkh","path":"sprites/spr_plr_atkh/spr_plr_atkh.yy",},},
     {"id":{"name":"spr_plr_curando","path":"sprites/spr_plr_curando/spr_plr_curando.yy",},},
     {"id":{"name":"spr_plr_placeholder","path":"sprites/spr_plr_placeholder/spr_plr_placeholder.yy",},},
     {"id":{"name":"spr_plr_td_down_light","path":"sprites/spr_plr_td_down_light/spr_plr_td_down_light.yy",},},

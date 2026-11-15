@@ -275,6 +275,7 @@
     {"name":"spr_OVERHEAT","order":7,"path":"sprites/spr_OVERHEAT/spr_OVERHEAT.yy",},
     {"name":"spr_pagina","order":1,"path":"sprites/spr_pagina/spr_pagina.yy",},
     {"name":"spr_plr_atk","order":1,"path":"sprites/spr_plr_atk/spr_plr_atk.yy",},
+    {"name":"spr_plr_atkh","order":6,"path":"sprites/spr_plr_atkh/spr_plr_atkh.yy",},
     {"name":"spr_plr_curando","order":6,"path":"sprites/spr_plr_curando/spr_plr_curando.yy",},
     {"name":"spr_plr_td_down_light","order":3,"path":"sprites/spr_plr_td_down_light/spr_plr_td_down_light.yy",},
     {"name":"spr_plr_walk_down","order":5,"path":"sprites/spr_plr_walk_down/spr_plr_walk_down.yy",},
