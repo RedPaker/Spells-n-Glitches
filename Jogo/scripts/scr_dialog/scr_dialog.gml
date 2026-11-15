@@ -253,7 +253,7 @@ global.sprites = {
     "0x43": spr_speak_C,
     "Porteiro":spr_green,
     "Morador": spr_magenta,
-    "???": Sprite147
+    "???": spr_narrador
 }
 
 function d_explicar_bloco(_obj) {

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_green",
-    "path":"sprites/spr_green/spr_green.yy",
+    "name":"spr_binario_puzzle",
+    "path":"sprites/spr_binario_puzzle/spr_binario_puzzle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
