@@ -21,6 +21,10 @@ if (keyboard_check_pressed(ord("P"))) {
     exit;
 }
 
+if (!instance_exists(obj_confetti)){
+    instance_create_layer(x,y,"Sistemas",obj_confetti)
+}
+
 
 if (hp <= 0) {
     game_over = true;

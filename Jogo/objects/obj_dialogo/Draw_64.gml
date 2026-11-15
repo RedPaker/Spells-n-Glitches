@@ -15,7 +15,7 @@ draw_sprite_stretched(spr_ui_frame_dialogo, 0, _dx, _dy + _slide, _boxw, _boxh);
 _dx += 16;
 _dy += 16;
 
-draw_set_font(fnt_16_comicsansms);
+draw_set_font(fnt_16_segoeui);
 
 var _name = messages[current_message].name;
 draw_set_colour(global.char_colors[$ _name]);

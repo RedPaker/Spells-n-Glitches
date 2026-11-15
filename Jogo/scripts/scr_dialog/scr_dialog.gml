@@ -244,6 +244,44 @@ function d_select_dialog(_is){
                 }
             ]
             break;
+        
+         
+            case "anciao_dialog":
+            return_value = [
+                {
+                    name: "Ancião",
+                    msg: "Oi meu filho, o que te traz à casa dessa velha lataria?"
+                },
+                {
+                    name: "0x43",
+                    msg: "O mundo foi infectado por um vírus horrível, estou tentando \n salvá-lo."
+                },
+                {
+                    name: "Ancião",
+                    msg: "Eu tenho algo que pode te ajudar. É um artefato que invoca \n poderes inacreditáveis."
+                },
+                {
+                    name: "0x43",
+                    msg: "Sério?"
+                },
+                {
+                    name: "Ancião",
+                    msg: "Ho ho ho... Claro que sim. Mas eu perdi as páginas deles \n quando moleque, o MSN ainda era famoso..."
+                },
+                {
+                    name: "0x43",
+                    msg: "Mas como eu vou fazer então?"
+                },
+                {
+                    name: "Ancião",
+                    msg: "Ache as páginas, monte os programas e faça churrasquinho \n desses vírus."
+                },
+                {
+                    name: "0x43",
+                    msg: "Obrigado!"
+                }
+            ]
+        break;
                    
     }
     return return_value;
@@ -253,6 +291,7 @@ global.char_colors = {
     "U+003A": c_red,
     "0x43": c_blue,
     "Morador": c_lime,
+    "Ancião": c_yellow,
     "Porteiro": c_orange,
     "???": c_gray
 }
@@ -261,6 +300,7 @@ global.sprites = {
     "U+003A": spr_speak_asterisco,
     "0x43": spr_speak_C,
     "Porteiro":spr_green,
+    "Ancião": spr_narrador,
     "Morador": spr_magenta,
     "???": spr_narrador
 }
