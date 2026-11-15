@@ -252,7 +252,7 @@ function d_select_dialog(_is){
 global.char_colors = {
     "U+003A": c_red,
     "0x43": c_blue,
-    "morador": c_lime,
+    "Morador": c_lime,
     "Porteiro": c_orange,
     "???": c_gray
 }
