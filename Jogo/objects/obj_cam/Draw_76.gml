@@ -27,22 +27,56 @@ if (obj_spellbook.abrir || instance_exists(obj_choque)){
 }
 
 
-camera_x = camera_get_view_width(view_camera[0]);
-camera_y = camera_get_view_height(view_camera[0]);
-if (room_width>camera_get_view_width(view_camera[0])) {
-	x = clamp(x,0+camera_get_view_width(view_camera[0])/2,room_width-camera_get_view_width(view_camera[0])/2);
-}else {
-	x = room_width/2
+switch (size) {
+    case 0:
+        size_x = defaultwidth;
+        size_y = defaultheight;
+        break;
+    case 1:
+        size_x = defaultwidth * 1.5;
+        size_y = defaultheight * 1.5;
+        break;
+    case 2:
+        size_x = defaultwidth * 2;
+        size_y = defaultheight * 2;
+        break;
+    case 3:
+        size_x = defaultwidth * 3;
+        size_y = defaultheight * 3;
+        break;
+    case 4:
+        size_x = defaultwidth * 4;
+        size_y = defaultheight * 4;
+        break;
+    case 5:
+        size_x = defaultwidth / 2;
+        size_y = defaultheight / 2;
+        break;
+    case 6:
+        size_x = defaultwidth / 1.5;
+        size_y = defaultheight / 1.5;
+        break;
 }
-if (room_width>camera_get_view_width(view_camera[0])) {
-	x = clamp(x,0+camera_get_view_width(view_camera[0])/2,room_width-camera_get_view_width(view_camera[0])/2);
-}else {
-	x = room_width/2
-}
-if (room_height>camera_get_view_height(view_camera[0])) {
-	y = clamp(y,0+camera_get_view_height(view_camera[0])/2,room_height-camera_get_view_height(view_camera[0])/2);
-}else {
-	x = room_height/2
+if (keyboard_check_pressed(ord("O"))) {
+	size++;
+    show_debug_message(size);
+    if(size>6){
+        size = 0;
+    }
 }
 
-camera_set_view_pos(view_camera[0], (x-(camera_x/2)), (y-(camera_y/2)));
+camera_set_view_size(view_camera[0], size_x, size_y);
+
+if (room_width > size_x) {
+    x = clamp(x, 0 + size_x / 2, room_width - size_x / 2);
+} else {
+    x = room_width / 2;
+}
+
+if (room_height > size_y) {
+    y = clamp(y, 0 + size_y / 2, room_height - size_y / 2);
+} else {
+    y = room_height / 2;
+}
+
+camera_set_view_pos(view_camera[0], (x-(size_x/2)), (y-(size_y/2)));

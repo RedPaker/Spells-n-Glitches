@@ -1,9 +1,11 @@
-face = round(obj_plr_rpg.facing/90)*90
+// Bloqueia o ataque até coletar o item
+if (!global.ataque_desbloqueado) {
+    exit;
+}
 
-image_angle = face+90
+face = round(obj_plr_rpg.facing/90)*90;
 
-
-
+image_angle = face+90;
 
 x = obj_plr_rpg.x + lengthdir_x(atk_dist, face);
 y = obj_plr_rpg.y + lengthdir_y(atk_dist, face);
@@ -21,6 +23,6 @@ if (abs(_dx)<abs(_dy)){
 
 tempo_vida--;
 
-if(tempo_vida <=0){
-	instance_destroy();
-	}
+if (tempo_vida <= 0) {
+    instance_destroy();
+}

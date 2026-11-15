@@ -90,12 +90,13 @@ switch (estado) {
         }
 
         if (empurra > 0) {
+            empurra = min(empurra,1)
             var _empurra_x = lengthdir_x(empurra, empurra_dir);
             var _empurra_y = lengthdir_y(empurra, empurra_dir);
 
             move_and_collide(_empurra_x, _empurra_y, [tilemap_foreground]);
 
-            empurra *= 0.8;
+            empurra *= 0.6;
 
             if (empurra < 0.1) {
                 empurra = 0;
