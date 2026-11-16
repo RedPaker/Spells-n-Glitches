@@ -614,7 +614,6 @@ footer img {
     margin-right: auto;
 }
 
-/* Carrosséis (Códigos e Storyboards) */
 .primarybox .codigo-carousel {
     width: 100%;
     max-width: 650px;           
@@ -636,4 +635,29 @@ footer img {
     max-width: 700px;           
     margin-left: auto;
     margin-right: auto;
+}
+
+.imagens-lado-a-lado {
+    display: flex;
+    flex-wrap: wrap;         
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.imagens-lado-a-lado figure {
+    flex: 1 1 250px;         
+    margin: 0;
+    text-align: center;
+}
+
+.imagens-lado-a-lado img {
+    width: 100%;
+    max-width: 100%;          
+    height: auto;
+}
+
+.imagens-lado-a-lado figcaption {
+    margin-top: 8px;
+    font-weight: bold;
 }
