@@ -2,6 +2,8 @@
 // pular a cutscene inteira
 if (keyboard_check_pressed(tecla_pular)) {
     if (instance_exists(obj_dialogo)) instance_destroy(obj_dialogo);
+    if (musica != noone) audio_stop_sound(musica);
+        
     // Reativa as camadas antes de destruir
     instance_activate_layer("Entities");
     instance_activate_layer("Itens");
@@ -30,6 +32,8 @@ global.jogo_pausado = true;
 if (estado == 0) {
     idx++;
     if (idx >= array_length(passos)) { 
+        if (musica != noone) audio_stop_sound(musica);
+        
         instance_activate_layer("Entities");
         instance_activate_layer("Itens");
         instance_activate_layer("Misc");

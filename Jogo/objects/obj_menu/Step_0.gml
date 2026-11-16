@@ -1,6 +1,6 @@
 
 
-if (keyboard_check_pressed(global.st_inv)) {
+if (keyboard_check_pressed(global.st_inv) and !instance_exists(obj_dialogo)) {
     menuaberto = !menuaberto
     global.jogo_pausado = menuaberto
     layer_set_visible("MenuLayer", menuaberto);

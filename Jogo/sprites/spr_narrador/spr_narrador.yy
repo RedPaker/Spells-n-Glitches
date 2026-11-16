@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"hello, i'm a NPC",
-    "path":"folders/Sprite/hello, i'm a NPC.yy",
+    "name":"Dialogo",
+    "path":"folders/Sprite/Dialogo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

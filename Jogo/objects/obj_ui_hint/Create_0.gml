@@ -1,4 +1,5 @@
 alfa = 1; 
+ativou = false;
 sumindo = false;
 switch (hint_id) {
 	case 0:

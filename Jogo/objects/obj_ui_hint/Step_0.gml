@@ -1,6 +1,7 @@
 
-if(hint_id == 1){
+if(hint_id == 1 and ativou == false and global.quests.mouse == true){
     alarm[0] = 120;
+    ativou = true;
 }
 
 if (sumindo == true) {

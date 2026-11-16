@@ -19,15 +19,15 @@ function d_select_dialog(_is){
             return_value = [
                 {
                     name: "U+003A",
-                    msg: "Ufa... finalmente acordou."
+                    msg: "Ufa... finalmente acordou,"
                 },
                 {
                     name: "U+003A",
-                    msg: "O senhor está bem?"
+                    msg: "Você está bem?"
                 },
                 {
                     name: "U+003A",
-                    msg: "Eu te vi desmaiado lá fora e tentei te ajudar."
+                    msg: "Eu te vi desmaiado lá fora perto de uma arvore e te trouxe para dentro."
                 },
                 {
                     name: "0x43",
@@ -35,39 +35,39 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "U+003A",
-                    msg: "Parece que algo está infectando os moradores,\n mas você pode me ajudar?"
-                },
-                {
-                    name: "0x43",
-                    msg: "Talvez... Acho que não tenho muita escolha, né?"
+                    msg: "Aquela explosão expalhou uma infecção viral por todo o mundo,\n mas parece que ela afeta apenas computatores mais recentes..."
                 },
                 {
                     name: "U+003A",
-                    msg: "A situação está melhor. Vamos tentar encontrar\n outros que não foram infectados."
+                    msg: "Está tudo um caos. Vamos para a Vila Byte atras de sobreviventes."
+                },
+                {
+                    name: "0x43",
+                    msg: "O-okay"
                 }
             ];
-        break;
+            break;
 
         case "fuga_dialog":
             return_value = [
                 {
                     name: "Morador",
-                    msg: "QUE SUSTO!!!!"
+                    msg: "im dead"
                 },
                 {
                     name: "0x43",
-                    msg: "Tem alguma coisa no qual eu possa usar?"
+                    msg: "holy shit"
                 },
                 {
                     name: "Morador",
-                    msg: "Só aquele mouse."
+                    msg: "pega meu mouse."
                 },
                 {
                     name: "Morador",
-                    msg: "Estou com medo, pegue e saia por favor."
+                    msg: "okay"
                 }
             ];
-        break;
+            break;
 
         case "Porteiro_dialog":
             return_value = [
@@ -77,44 +77,44 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "Porteiro",
-                    msg: "Só você consegue derrotar eles."
+                    msg: "Mas não acho que seja forte o suficiente para enfrentar oque esta atras deste portão..."
                 },
                 {
                     name: "Porteiro",
-                    msg: "Tem algo atrás do portão da vila, eu tranquei antes de\n invadir a vila."
+                    msg: "Eu tranquei os portões da vila para impedir oque seja aquilo de invadir a vila"
                 },
                 {
                     name: "Porteiro",
-                    msg: "Acha que dá conta?"
+                    msg: "Não posso permitir ninguem passar daqui."
+                },
+                {
+                    name: "Porteiro",
+                    msg: "O problema que eu perdi o papel que incluia a senha para a abertura dos portões para enviar na torre de sinal \\:"
                 },
                 {
                     name: "0x43",
-                    msg: "Espero que sim..."
+                    msg: "Hmmm..."
                 },
                 {
                     name: "Porteiro",
-                    msg: "Ok, suba a rua e vire para a esquerda,\n você irá encontrar a torre."
-                },
-                {
-                    name: "Porteiro",
-                    msg: "No alto dela terá um painel.\n DIGITE: 183 e o portão irá abrir."
+                    msg: "Vá embora e se proteja dessa infecção."
                 },
                 {
                     name: "0x43",
-                    msg: "Ok."
+                    msg: "..."
                 }
             ];
-        break;
+           ;
 
         case "tutorial_binario_dialog":
             return_value = [
                 {
                     name: "0x43",
-                    msg: "Como eu faço?\n Só tem 0 e 1."
+                    msg: "???"
                 },
                 {
                     name: "U+003A",
-                    msg: "Você terá que digitar a senha 183 em binário."
+                    msg: "Você terá que digitar a senha  em binário."
                 },
                 {
                     name: "U+003A",
@@ -165,7 +165,7 @@ function d_select_dialog(_is){
                     msg: "Faça isso com 183. Divida por dois, anote os restos,\n e monte o número começando pelo último resto."
                 }
             ];
-        break;
+            break;
 
         case "Estranho_ram_dialog":
             return_value = [
@@ -230,7 +230,7 @@ function d_select_dialog(_is){
                     msg: "TÁ BOOOM!!!!!"
                 }
             ];
-        break;
+            break;
 
         case "binario_certo":
             return_value = [
@@ -239,7 +239,7 @@ function d_select_dialog(_is){
                     msg: "Boa! Isso deve ter aberto o portão. Vamos lá embaixo ver se\n deu certo."
                 }
             ];
-        break;
+            break;
 
         case "anciao_dialog":
             return_value = [
@@ -249,7 +249,7 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "0x43",
-                    msg: "O mundo foi infectado por um vírus horrível, estou tentando\n salvá-lo."
+                    msg: "Esta acontecendo um apocalipse no exterior e estou tentando\n impedilo."
                 },
                 {
                     name: "Ancião",
@@ -257,7 +257,7 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "0x43",
-                    msg: "Sério?"
+                    msg: "Serio..?"
                 },
                 {
                     name: "Ancião",
@@ -265,7 +265,7 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "0x43",
-                    msg: "Mas como eu vou fazer então?"
+                    msg: "Oque eu faço?"
                 },
                 {
                     name: "Ancião",
@@ -276,7 +276,34 @@ function d_select_dialog(_is){
                     msg: "Obrigado!"
                 }
             ];
-        break;
+            break;
+        case "Enter55":
+            return_value = [
+                {
+                    name: "0x43",
+                    msg: "!!!!!!!!!!!"
+                },
+                {
+                    name: "U+003A",
+                    msg: "!!!!!!!!!!!!!!!"
+                },
+                {
+                    name: "U+003A",
+                    msg: "RAPIDO ALI UM MOUSE!"
+                },
+                {
+                    name: "0x43",
+                    msg: "O que aconteceu aqui?.."
+                }
+            ];
+            break
+    default:
+        return_value = [
+            {
+                name: "0x43",
+                msg: "..."
+            }
+        ]
     }
 
     return return_value;

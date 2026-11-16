@@ -1,6 +1,5 @@
 // Inherit the parent event
 event_inherited();
-event_inherited();
 
 if (dialog_id == 0) {
     dialog = d_select_dialog("welcome_dialog");

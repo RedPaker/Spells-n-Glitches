@@ -36,6 +36,8 @@ if (hp <= 0) {
     }
 
     if (global.jogo_pausado == true) exit;
+        
+    
 
     if (instance_exists(obj_choque) && obj_choque.lifetime > 0) exit;
 
@@ -106,7 +108,7 @@ if (hp <= 0) {
 
     if (!curando) {
         if (state == 0 || state == 5 || state == 6) {
-            move_and_collide(_target_x, _target_y, [tilemap_foreground, inviswalls,inviswallss,inviswallsss]);
+            move_and_collide(_target_x, _target_y, [tilemap_foreground, inviswalls,inviswallss,inviswallsss,npc]);
         } else if (state == 2) {
             x += clamp(_target_x * 5, -5, 5);
             y += clamp(_target_y * 5, -5, 5);
@@ -198,7 +200,7 @@ if (hp <= 0) {
     if (ataque_time > 0) ataque_time--;
 
     if (!curando && keyboard_check_pressed(global.st_use) && ataque_time <= 0 && !instance_exists(obj_dialogo)) {
-        var _distancia = 7;
+        var _distancia = 5;
 
         var _dx = lengthdir_x(_distancia, facing);
         var _dy = lengthdir_y(_distancia, facing);
@@ -231,7 +233,7 @@ if (hp <= 0) {
             var _dx = _dash_x / _passos;
             var _dy = _dash_y / _passos;
 
-            if (place_meeting(x + _dx, y + _dy, inviswalls)) break;
+            if (place_meeting(x + _dx, y + _dy, [tilemap_foreground,inviswalls,inviswallss,inviswallsss,npc]) and layer) break;
 
             x += _dx;
             y += _dy;
@@ -243,7 +245,7 @@ if (hp <= 0) {
         var _empurra_x = lengthdir_x(empurra, empurra_dir);
         var _empurra_y = lengthdir_y(empurra, empurra_dir);
 
-        move_and_collide(_empurra_x, _empurra_y, [tilemap_foreground, inviswalls,inviswallss,inviswallsss]);
+        move_and_collide(_empurra_x, _empurra_y, [tilemap_foreground, inviswalls,inviswallss,inviswallsss,npc]);
 
         empurra *= 0.8;
 

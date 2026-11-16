@@ -26,12 +26,8 @@ if (place_meeting(x, y, obj_plr_rpg) && keyboard_check_pressed(ord("Z"))) {
         coletado = true;
 
         // Remove o mouse da room
-        instance_destroy();
+        alarm[0] = 60
+        visible = false;
     }
 }
 
-if (global.quests.mouse == true) {
-    instance_deactivate_object(self);
-} else {
-    instance_activate_object(self);
-}
