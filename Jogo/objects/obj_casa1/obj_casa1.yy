@@ -12,8 +12,8 @@
     "path":"folders/ObjectS/Structures.yy",
   },
   "parentObjectId":{
-    "name":"obj_structure",
-    "path":"objects/obj_structure/obj_structure.yy",
+    "name":"obj_structure_big",
+    "path":"objects/obj_structure_big/obj_structure_big.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -29,3 +29,9 @@ if (place_meeting(x, y, obj_plr_rpg) && keyboard_check_pressed(ord("Z"))) {
         instance_destroy();
     }
 }
+
+if (global.quests.mouse == true) {
+    instance_deactivate_object(self);
+} else {
+    instance_activate_object(self);
+}
