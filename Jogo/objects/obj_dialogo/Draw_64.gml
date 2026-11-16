@@ -15,15 +15,20 @@ draw_sprite_stretched(spr_ui_frame_dialogo, 0, _dx, _dy + _slide, _boxw, _boxh);
 _dx += 16;
 _dy += 16;
 
-draw_set_font(fnt_16_segoeui);
+var _text_scale = 4;
+draw_set_font(fnt_6_segoeui);
 
 var _name = messages[current_message].name;
 draw_set_colour(global.char_colors[$ _name]);
-draw_text(_dx, _dy + _slide, _name);
+draw_text_transformed(_dx, _dy + _slide, _name,_text_scale,_text_scale,0);
 draw_set_colour(c_white);
 
 _dy += 40;
-draw_text_ext_transformed(_dx, _dy + _slide, draw_message, -1, _boxw - (_dx * 2), 2, 2, 0);
+
+
+var _max_width = (_boxw - (_dx * 2)) / _text_scale;
+draw_set_font(fnt_8_segoeui);
+draw_text_ext_transformed(_dx, _dy + _slide, draw_message, -1, _max_width, _text_scale, _text_scale, 0);
 
 // retrato com zoom: começa em 70% e passa um pouco de 100% antes de assentar
 var _z = ease_out_back(zoom);
