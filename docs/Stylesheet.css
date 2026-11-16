@@ -23,7 +23,7 @@ body {
     background-size: cover;
     color: #050316;
     margin: 0;
-    font-family: Ms San Serif;
+    font-family: DigiBop;
 }
 
 .bodyfix{
@@ -148,6 +148,7 @@ table.footer-table td {
     box-shadow: none !important;
     padding: 0 5px !important;
     font-family: inherit;
+    font-size: 20px;
 }
 
 footer p {
@@ -396,4 +397,143 @@ p {
 .video-fallback a:hover {
     color: #16384c;
     text-decoration: underline;
+}
+
+
+header img {
+    filter: drop-shadow(0 8px 12px rgba(0, 30, 80, 0.45));
+}
+
+header h1,
+header p {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9),
+                 0 3px 10px rgba(0, 60, 120, 0.45);
+}
+
+
+nav {
+    position: relative;
+    overflow: hidden;
+    opacity: 1; 
+    padding: 8px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    border-radius: 30px;
+    background: linear-gradient(180deg,
+                rgba(255, 255, 255, 0.75) 0%,
+                rgba(190, 235, 255, 0.55) 50%,
+                rgba(120, 205, 245, 0.55) 100%);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 10px 26px rgba(0, 50, 110, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.95),
+                inset 0 -2px 6px rgba(0, 120, 190, 0.25);
+}
+
+
+nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0));
+    border-radius: 30px 30px 0 0;
+    pointer-events: none;
+}
+
+nav a {
+    position: relative;
+    z-index: 1;
+    margin: 4px 3px;
+    padding: 6px 18px;
+    color: #0a4f7a;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+    transition: all 0.2s ease;
+}
+
+nav a:hover {
+    color: #063a5c;
+    border-color: rgba(255, 255, 255, 0.9);
+    background: linear-gradient(180deg, #ffffff 0%, #bfeaff 55%, #7fd0f5 100%);
+    box-shadow: 0 4px 10px rgba(0, 80, 150, 0.35),
+                0 0 12px rgba(120, 220, 255, 0.8),
+                inset 0 1px 0 #fff;
+}
+
+
+.link-caixa {
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    box-shadow: 0 8px 22px rgba(0, 50, 110, 0.35),
+                inset 0 1px 0 rgba(255, 255, 255, 0.9),
+                inset 0 -3px 8px rgba(0, 120, 200, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.link-caixa:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 32px rgba(0, 50, 110, 0.45),
+                0 0 18px rgba(130, 220, 255, 0.7),
+                inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+.link-caixa img {
+    box-shadow: 0 4px 12px rgba(0, 40, 90, 0.4);
+}
+
+.link-caixa h2 {
+    text-shadow: 0 1px 4px rgba(0, 50, 110, 0.7);
+}
+
+
+.primarybox.window {
+    box-shadow: 0 12px 34px rgba(0, 30, 80, 0.5),
+                0 0 0 1px rgba(255, 255, 255, 0.4);
+}
+
+.primarybox img {
+    box-shadow: 0 6px 16px rgba(0, 40, 90, 0.35);
+}
+
+
+.voltar {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background: linear-gradient(180deg, #eaffa8 0%, #cbff3d 50%, #a6e019 100%);
+    box-shadow: 0 5px 12px rgba(0, 60, 40, 0.35),
+                inset 0 1px 0 rgba(255, 255, 255, 0.95);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+    transition: all 0.2s ease;
+}
+
+.voltar:hover {
+    background: linear-gradient(180deg, #2f6f93 0%, #16384c 100%);
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 7px 16px rgba(0, 30, 60, 0.5),
+                0 0 12px rgba(130, 220, 255, 0.6);
+}
+
+
+.codigo-carousel .carousel-item img,
+.storyboard-slide img {
+    filter: drop-shadow(0 6px 10px rgba(0, 30, 70, 0.4));
+}
+
+.video-container {
+    box-shadow: 0 10px 28px rgba(0, 30, 80, 0.5),
+                0 0 0 2px rgba(255, 255, 255, 0.6);
+}
+
+
+footer {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 -6px 22px rgba(0, 50, 110, 0.35),
+                inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+footer img {
+    filter: drop-shadow(0 4px 6px rgba(0, 30, 80, 0.45));
 }

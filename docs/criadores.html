@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Syne+Mono&display=swap"
-    rel="stylesheet">
+<html lang="pt-BR">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Criadores</title>
-    <link rel="stylesheet" href="Stylesheet.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Syne+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/7.css">
+    <link rel="stylesheet" href="Stylesheet.css">
 </head>
 
 <body class="bodyfix">
@@ -22,11 +25,20 @@
         <a href="index.html">Site Principal</a>
     </nav>
     <main class="main_legal">
-        <div class="primarybox">
+        <div class="primarybox window active">
+            <div class="title-bar">
+                <div class="title-bar-text">Criadores</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close" onclick="location.href='index.html'"></button>
+                </div>
+            </div>
+            <div class="window-body has-space">
 
-            <img src="imagens/Captura_de_tela_20261110_231442.png">
+                <img src="imagens/Captura_de_tela_20261110_231442.png">
 
-            <h1>Criadores</h1>
+                <h1>Criadores</h1>
                 <section class="perguntas-base">
 
                     <h2>Perguntas que serviram de base para os depoimentos</h2>
@@ -61,8 +73,8 @@
                     <h2>Leonardo Brandão da Silva Cevalhos Linares</h2>
                     <blockquote>
                         <p>
-                           "...<br>
-                           
+                            "...<br>
+
                             A maior dificuldade que.<br>
 
                             Gosto de programação desde 2016, quando acidentalmente montei meu primeiro jogo no roblox,
@@ -84,7 +96,7 @@
 
                             Acredito que a maior dificuldade tenha sido a parte da organização e da confiança. Dentro do nosso grupo,
                             foi necessário que cada membro desenvolvesse suas habilidades,
-                            assumisse suas responsabilidades e aprendesse a confiar no trabalho dos outros integrantes.<br> 
+                            assumisse suas responsabilidades e aprendesse a confiar no trabalho dos outros integrantes.<br>
 
                             Como comecei a desenvolver o jogo após o primeiro semestre,
                             já possuía um conhecimento intermediário de lógica de programação na linguagem C,
@@ -128,24 +140,27 @@
                     </blockquote>
                 </section>
 
-            <h2>Sobre o jogo</h2>
+                <h2>Sobre o jogo</h2>
 
-            <p>
-                Este site foi criado no intuito de fazer uma apresentação sobre nosso jogo de lógica de programação,
-                sala = DS 131
-            </p>
+                <p>
+                    Este site foi criado no intuito de fazer uma apresentação sobre nosso jogo de lógica de programação,
+                    sala = DS 131
+                </p>
 
-            <a href="index.html" class="voltar">Voltar</a>
+                <a href="index.html" class="voltar">Voltar</a>
 
+            </div>
         </div>
     </main>
 
     <footer>
-        <table>
+        <img src="Adobe Express - file.png" alt="">
+        <p>&zwnj;</p>
+        <table class="footer-table">
             <tr>
                 <th>Arthur Andrade</th>
                 <th>|</th>
-                <th>Leonardo Brandão</th>
+                <th>Leonardo Brandão Linares</th>
                 <th>|</th>
                 <th>Mateus Diógenes</th>
                 <th>|</th>
@@ -154,7 +169,6 @@
                 <th>Nicolas Salatini</th>
             </tr>
         </table>
-        <p>DS 131 - IFSP SPO - 2026</p>
     </footer>
 
 </body>
