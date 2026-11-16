@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc_porteiro_1",
+  "%Name":"obj_npc_anciao",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_npc_porteiro_1",
+  "name":"obj_npc_anciao",
   "overriddenProperties":[],
   "parent":{
     "name":"Amigos kkkk (NPCs)",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_porteiro",
-    "path":"sprites/spr_porteiro/spr_porteiro.yy",
+    "name":"spr_anciao",
+    "path":"sprites/spr_anciao/spr_anciao.yy",
   },
   "spriteMaskId":null,
   "visible":true,

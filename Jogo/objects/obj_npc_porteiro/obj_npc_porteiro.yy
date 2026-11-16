@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_porteiro",
-    "path":"sprites/spr_porteiro/spr_porteiro.yy",
+    "name":"spr_flower_porteiro",
+    "path":"sprites/spr_flower_porteiro/spr_flower_porteiro.yy",
   },
   "spriteMaskId":null,
   "visible":true,
