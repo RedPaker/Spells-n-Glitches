@@ -1,3 +1,8 @@
+
+if(hint_id == 1){
+    alarm[0] = 120;
+}
+
 if (sumindo == true) {
     alfa -= 0.02; 
 
