@@ -4,3 +4,4 @@ chocado = false
 default_movespeed = 1.1
 move_spd = default_movespeed
 hp = 15;
+distance_to_player = 96;

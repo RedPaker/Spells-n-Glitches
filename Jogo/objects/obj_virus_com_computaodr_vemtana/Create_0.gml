@@ -7,7 +7,7 @@ default_movespeed = 0.6;
 move_spd = default_movespeed;
 alarm[0] = 60;
 
-distance_to_player = 100;
+distance_to_player = 72;
 
 tilemap_foreground = layer_tilemap_get_id("tlm_fg");//fala onde colidir
 tilemap_background = layer_tilemap_get_id("tlm_bg");
