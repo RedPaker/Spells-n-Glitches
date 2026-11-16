@@ -4,12 +4,14 @@ if (!global.ataque_desbloqueado) {
 }
 
 face = round(obj_plr_rpg.facing/90)*90;
-if (lengthdir_x(1,face)>0) {
-    sprite_index = spr_plr_atk_old;
+if (lengthdir_x(1,face)!=0) {
+    sprite_index = spr_plr_atkh_old;
     image_angle = face+90;
+    show_debug_message("Facing: " + string(obj_plr_rpg.facing) + " | Face: " + string(face));
 }else {
 	sprite_index = spr_plr_atk_old;
     image_angle = face+90;
+    show_debug_message("asfdafasfgdsFacing: " + string(obj_plr_rpg.facing) + " | Face: " + string(face));
 }
 x = obj_plr_rpg.x + lengthdir_x(atk_dist, face);
 y = obj_plr_rpg.y + lengthdir_y(atk_dist, face);

@@ -11,7 +11,8 @@ global.quests = {
     ram: false,
     css: false
 }
-    
+
+global.binarionumb = irandom(255);
 
 global.current_save = 0;
 
