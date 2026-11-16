@@ -294,8 +294,8 @@ global.char_colors = {
 global.sprites = {
     "U+003A": spr_speak_asterisco,
     "0x43": spr_speak_C,
-    "Porteiro": spr_green,
-    "Ancião": spr_narrador,
+    "Porteiro":spr_green,
+    "Ancião": spr_speak_1,
     "Morador": spr_magenta,
     "???": spr_narrador
 };
@@ -305,7 +305,7 @@ function d_explicar_bloco(_obj) {
         case "obj_bloco_print":
             return [
                 { name: "U+003A", msg: "Esse é o bloco PRINT!" },
-                { name: "U+003A", msg: "Ele mostra uma mensagem no terminal.\n Use para saber o que o programa está fazendo." }
+                { name: "U+003A", msg: "Ele mostra uma mensagem no terminal.\n Use para saber o que o programa esta fazendo." }
             ];
 
         case "obj_bloco_while":
