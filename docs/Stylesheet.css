@@ -30,6 +30,10 @@ body {
     margin-top: 60px;
 }
 
+body img {
+    image-rendering: pixelated;
+}
+
 header {
     text-align: center;
     gap: 20px;
@@ -37,8 +41,6 @@ header {
 }
 
 header img {
-    width: 900px;
-    height: 400px;
     object-fit: contain;
     filter: drop-shadow(0 8px 12px rgba(0, 30, 80, 0.45));
 }
@@ -185,7 +187,8 @@ article {
 .primarybox .window-body {
     overflow: visible;
     min-width: 0;
-    font-size: 18px;           
+    font-size: 18px;
+    padding: 23px 49px;           
 }
 
 .primarybox .window-body p,
@@ -216,6 +219,7 @@ article {
     margin-right: auto;
     box-shadow: 0 6px 16px rgba(0, 40, 90, 0.35);
 }
+
 
 .primarybox h1 {
     color: #040316;
@@ -497,5 +501,45 @@ footer p {
     .codigo-carousel .carousel-item img,
     .primarybox .codigo-carousel .carousel-item img {
         height: 220px;
+    }
+}
+
+/* Layout do Personagem (Imagem à esquerda, Texto à direita) */
+.personagem-conteudo {
+    display: flex;
+    align-items: flex-start; /* Alinha o topo da imagem com o topo do texto */
+    gap: 24px;               /* Espaçamento entre a imagem e o texto */
+    margin-bottom: 25px;
+}
+
+.personagem-imagem {
+    flex: 0 0 220px;         /* Define a largura fixa da imagem (ajuste conforme preferir) */
+}
+
+.personagem-imagem img {
+    width: 100%;
+    max-width: 220px;        /* Reduz o tamanho máximo da imagem */
+    margin: 0;               /* Remove a centralização automática de .primarybox img */
+    border-radius: 15px;
+}
+
+.personagem-texto {
+    flex: 1;                 /* Faz o texto ocupar todo o restante do espaço à direita */
+}
+
+.personagem-texto p:first-child {
+    margin-top: 0;           /* Evita espaço extra acima do primeiro parágrafo */
+}
+
+/* Ajuste para telas de celular */
+@media (max-width: 600px) {
+    .personagem-conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .personagem-imagem {
+        flex: none;
+        width: 180px;
     }
 }
