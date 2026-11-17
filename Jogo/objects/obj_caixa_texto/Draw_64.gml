@@ -1,3 +1,5 @@
+display_set_gui_size(640, 360);
+
 var _gui_mx = device_mouse_x_to_gui(0);
 var _gui_my = device_mouse_y_to_gui(0);
 

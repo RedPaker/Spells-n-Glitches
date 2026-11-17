@@ -42,8 +42,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Feitiços",
-    "path":"folders/Sprite/Feitiços.yy",
+    "name":"Main_Char",
+    "path":"folders/Sprite/Main_Char.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

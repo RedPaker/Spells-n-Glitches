@@ -12,7 +12,9 @@ distance_to_player = 100;
 
 tilemap_foreground = layer_tilemap_get_id("tlm_fg");
 tilemap_background = layer_tilemap_get_id("tlm_bg");
-inviswalls = obj_wall
+inviswalls = obj_wall;
+npc = obj_npc_parent;
+estruturas = obj_structure;
 
 empurra = 0;
 empurra_dir = 0;
@@ -28,3 +30,12 @@ seguindo_jukebox = false;
 
 distancia_separacao = 32;
 forca_separacao = 2;
+facing = 0;
+
+
+descansando = false;
+tempo_pausa_min = 180;  
+tempo_pausa_max = 300; 
+
+mov_x = 0;
+mov_y = 0;
