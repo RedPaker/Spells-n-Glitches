@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ventana_anciao",
-    "path":"sprites/spr_ventana_anciao/spr_ventana_anciao.yy",
+    "name":"spr_ventana_anciao_yellow",
+    "path":"sprites/spr_ventana_anciao_yellow/spr_ventana_anciao_yellow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

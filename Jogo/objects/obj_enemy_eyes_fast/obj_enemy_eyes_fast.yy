@@ -2,7 +2,6 @@
   "$GMObject":"",
   "%Name":"obj_enemy_eyes_fast",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
@@ -13,8 +12,8 @@
     "path":"folders/ObjectS/Inimigos.yy",
   },
   "parentObjectId":{
-    "name":"obj_enemy_parent",
-    "path":"objects/obj_enemy_parent/obj_enemy_parent.yy",
+    "name":"obj_enemy_eyes",
+    "path":"objects/obj_enemy_eyes/obj_enemy_eyes.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
