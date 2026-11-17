@@ -504,34 +504,34 @@ footer p {
     }
 }
 
-/* Layout do Personagem (Imagem à esquerda, Texto à direita) */
+
 .personagem-conteudo {
     display: flex;
-    align-items: flex-start; /* Alinha o topo da imagem com o topo do texto */
-    gap: 24px;               /* Espaçamento entre a imagem e o texto */
+    align-items: flex-start; 
+    gap: 24px;               
     margin-bottom: 25px;
 }
 
 .personagem-imagem {
-    flex: 0 0 220px;         /* Define a largura fixa da imagem (ajuste conforme preferir) */
+    flex: 0 0 220px;        
 }
 
 .personagem-imagem img {
     width: 100%;
-    max-width: 220px;        /* Reduz o tamanho máximo da imagem */
-    margin: 0;               /* Remove a centralização automática de .primarybox img */
+    max-width: 220px;        
+    margin: 0;               
     border-radius: 15px;
 }
 
 .personagem-texto {
-    flex: 1;                 /* Faz o texto ocupar todo o restante do espaço à direita */
+    flex: 1;                 
 }
 
 .personagem-texto p:first-child {
-    margin-top: 0;           /* Evita espaço extra acima do primeiro parágrafo */
+    margin-top: 0;           
 }
 
-/* Ajuste para telas de celular */
+
 @media (max-width: 600px) {
     .personagem-conteudo {
         flex-direction: column;
@@ -542,4 +542,22 @@ footer p {
         flex: none;
         width: 180px;
     }
+}
+
+.livro-conteudo {
+    display: flex;
+    align-items: flex-start; 
+    gap: 24px;               
+    margin-bottom: 25px;
+}
+
+.livro-imagem {
+    flex: 0 0 600px;        
+}
+
+.livro-imagem img {
+    width: 100%;
+    max-width: 600px;        
+    margin: 0;               
+    border-radius: 15px;
 }
