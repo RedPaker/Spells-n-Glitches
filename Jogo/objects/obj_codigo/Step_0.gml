@@ -7,7 +7,7 @@ if (place_meeting(x, y, obj_plr_rpg)) {
             obj: object_index,
             use: use,
             n: n,
-            info: "Neste arquivo esta escrito: " + string(183),
+            info: "Neste arquivo esta escrito: " + string(45),
             throwable: throwable
         };
 

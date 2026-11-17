@@ -34,6 +34,9 @@
     "name":"spr_cyan",
     "path":"sprites/spr_cyan/spr_cyan.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_barreira",
+    "path":"sprites/spr_barreira/spr_barreira.yy",
+  },
   "visible":true,
 }

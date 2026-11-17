@@ -87,11 +87,11 @@ if (hp <= 0) {
         else move_spd = 1;
     }
 
-    /* Noclip
+    //Noclip
     if (keyboard_check_pressed(ord("N"))) {
         if (state == 2) state = 0;
         else state = 2;
-    }*/
+    }
 
     // Movimentação
     var _target_x = 0;
@@ -119,7 +119,21 @@ if (hp <= 0) {
     cam_y = y - _old_y;
 
     // Controle de sprites
+    // Controle de sprites
     if (!curando) {
+
+        // Define qual conjunto de sprites usar com base na room
+        var _is_retro = (room == rm_boss_fase1);
+
+        var _spr_walk_right = _is_retro ? spr_plr_rwr : spr_plr_walk_right;
+        var _spr_walk_left  = _is_retro ? spr_plr_lwr : spr_plr_walk_left;
+        var _spr_walk_down  = _is_retro ? spr_plr_dwr : spr_plr_walk_down;
+        var _spr_walk_up    = _is_retro ? spr_plr_uwr : spr_plr_walk_up;
+
+        var _spr_idle_right = _is_retro ? spr_plr_rr  : spr_plr_td_right;
+        var _spr_idle_left  = _is_retro ? spr_plr_lr  : spr_plr_td_left;
+        var _spr_idle_down  = _is_retro ? spr_plr_dr  : spr_plr_td_down;
+        var _spr_idle_up    = _is_retro ? spr_plr_ur  : spr_plr_td_up;
 
         if (_input_x != 0 || _input_y != 0) {
             image_speed = 1;
@@ -130,68 +144,70 @@ if (hp <= 0) {
             var _yface = lengthdir_y(1, facing);
 
             if (state != 5) {
-                if (_xface > 0) sprite_index = spr_plr_walk_right;
-                else if (_xface < 0) sprite_index = spr_plr_walk_left;
-                else if (_yface > 0) sprite_index = spr_plr_walk_down;
-                else if (_yface < 0) sprite_index = spr_plr_walk_up;
+                if (_xface > 0) sprite_index = _spr_walk_right;
+                else if (_xface < 0) sprite_index = _spr_walk_left;
+                else if (_yface > 0) sprite_index = _spr_walk_down;
+                else if (_yface < 0) sprite_index = _spr_walk_up;
             } else {
-                if (_xface < 0) sprite_index = spr_plr_walk_right;
-                else if (_xface > 0) sprite_index = spr_plr_walk_left;
-                else if (_yface < 0) sprite_index = spr_plr_walk_down;
-                else if (_yface > 0) sprite_index = spr_plr_walk_up;
+                if (_xface < 0) sprite_index = _spr_walk_right;
+                else if (_xface > 0) sprite_index = _spr_walk_left;
+                else if (_yface < 0) sprite_index = _spr_walk_down;
+                else if (_yface > 0) sprite_index = _spr_walk_up;
             }
 
         } else {
             switch (facing) {
                 case 0:
-                    sprite_index = spr_plr_td_right;
+                    sprite_index = _spr_idle_right;
                     image_speed = 0;
                     image_index = 0;
                 break;
 
                 case 180:
-                    sprite_index = spr_plr_td_left;
+                    sprite_index = _spr_idle_left;
                     image_speed = 0;
                     image_index = 0;
                 break;
 
                 case 90:
-                    sprite_index = spr_plr_td_up;
+                    sprite_index = _spr_idle_up;
                     image_speed = 0;
                     image_index = 0;
                 break;
 
                 case 270:
-                    sprite_index = spr_plr_td_down;
+                    sprite_index = _spr_idle_down;
                     image_speed = 1;
                 break;
 
                 default:
-                    sprite_index = spr_plr_td_down;
+                    sprite_index = _spr_idle_down;
                     image_speed = 1;
                 break;
             }
         }
 
-        // Sprint
+        // Sprint (mantido caso altere algo além da lógica acima)
         if (state == 5 && (_input_x != 0 || _input_y != 0)) {
             var _xface = lengthdir_x(1, facing);
             var _yface = lengthdir_y(1, facing);
 
-            if (_xface < 0) sprite_index = spr_plr_walk_right;
-            else if (_xface > 0) sprite_index = spr_plr_walk_left;
-            else if (_yface < 0) sprite_index = spr_plr_walk_down;
-            else if (_yface > 0) sprite_index = spr_plr_walk_up;
+            if (_xface < 0) sprite_index = _spr_walk_right;
+            else if (_xface > 0) sprite_index = _spr_walk_left;
+            else if (_yface < 0) sprite_index = _spr_walk_down;
+            else if (_yface > 0) sprite_index = _spr_walk_up;
         }
 
-        // Efeito da magia Flash
-        if (instance_exists(obj_flash)) {
-            if (sprite_index == spr_plr_td_down) {
-                sprite_index = spr_plr_td_down_light;
-            }
-        } else {
-            if (sprite_index == spr_plr_td_down_light) {
-                sprite_index = spr_plr_td_down;
+        // Efeito da magia Flash (aplicado apenas nos sprites normais)
+        if (!_is_retro) {
+            if (instance_exists(obj_flash)) {
+                if (sprite_index == spr_plr_td_down) {
+                    sprite_index = spr_plr_td_down_light;
+                }
+            } else {
+                if (sprite_index == spr_plr_td_down_light) {
+                    sprite_index = spr_plr_td_down;
+                }
             }
         }
     }
