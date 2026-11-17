@@ -1,5 +1,5 @@
 
-if (keyboard_check_pressed(ord("B"))) alternar_livro();
+//if (keyboard_check_pressed(ord("B"))) alternar_livro();
 
 if (abrir && !slots_criados){
     spawn_blocos_pagina(pagina_atual)

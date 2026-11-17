@@ -87,11 +87,11 @@ if (hp <= 0) {
         else move_spd = 1;
     }
 
-    // Noclip
+    /* Noclip
     if (keyboard_check_pressed(ord("N"))) {
         if (state == 2) state = 0;
         else state = 2;
-    }
+    }*/
 
     // Movimentação
     var _target_x = 0;

@@ -24,6 +24,7 @@
     {"name":"inst_7893914","path":"rooms/rm_torre/rm_torre.yy",},
     {"name":"inst_5CA59D7D","path":"rooms/rm_torre/rm_torre.yy",},
     {"name":"inst_1FBFD71","path":"rooms/rm_torre/rm_torre.yy",},
+    {"name":"inst_41E4C1C9","path":"rooms/rm_torre/rm_torre.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -54,6 +55,7 @@
       ],"layers":[],"name":"Structures","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Itens","depth":300,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_7A6FCAED1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7A6FCAED1","objectId":{"name":"obj_binario_puzzle","path":"objects/obj_binario_puzzle/obj_binario_puzzle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":568.0,"y":392.0,},
+        {"$GMRInstance":"v4","%Name":"inst_41E4C1C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_41E4C1C9","objectId":{"name":"obj_pagina_cd","path":"objects/obj_pagina_cd/obj_pagina_cd.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":648.0,"y":344.0,},
       ],"layers":[],"name":"Itens","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Entities","depth":400,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_1FBFD71","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1FBFD71","objectId":{"name":"obj_npc_asterisco","path":"objects/obj_npc_asterisco/obj_npc_asterisco.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":392.0,},

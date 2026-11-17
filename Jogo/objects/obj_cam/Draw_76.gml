@@ -32,7 +32,11 @@ switch (size) {
         size_x = defaultwidth;
         size_y = defaultheight;
         break;
-    case 1:
+    default:
+        size_x = defaultwidth;
+        size_y = defaultheight;
+        break;
+    /*case 1:
         size_x = defaultwidth * 1.5;
         size_y = defaultheight * 1.5;
         break;
@@ -55,7 +59,7 @@ switch (size) {
     case 6:
         size_x = defaultwidth / 1.5;
         size_y = defaultheight / 1.5;
-        break;
+        break;*/
 }
 if (keyboard_check_pressed(ord("O"))) {
 	size++;
