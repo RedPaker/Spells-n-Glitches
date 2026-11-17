@@ -1,5 +1,7 @@
 if (global.quests.binario == true) {
-    instance_deactivate_object(self);
+    sprite_index = 0;
+    mask_index = -1;
 }else {
-    instance_activate_object(self);
+    sprite_index = 1;
+    mask_index = -1;
 }

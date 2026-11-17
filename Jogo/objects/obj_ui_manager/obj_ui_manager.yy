@@ -8,8 +8,8 @@
   "name":"obj_ui_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"z_Deprecated",
-    "path":"folders/ObjectS/z_Deprecated.yy",
+    "name":"UI",
+    "path":"folders/ObjectS/UI.yy",
   },
   "parentObjectId":null,
   "persistent":true,

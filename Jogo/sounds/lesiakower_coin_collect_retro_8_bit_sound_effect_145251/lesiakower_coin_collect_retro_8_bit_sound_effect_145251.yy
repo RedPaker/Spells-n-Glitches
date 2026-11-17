@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"lesiakower_coin_collect_retro_8_bit_sound_effect_145251",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.7520181,
+  "exportDir":"",
+  "name":"lesiakower_coin_collect_retro_8_bit_sound_effect_145251",
+  "parent":{
+    "name":"SoundEffecs",
+    "path":"folders/[Angry_bird_listening_img]/SoundEffecs.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"lesiakower_coin_collect_retro_8_bit_sound_effect_145251.mp3",
+  "volume":1.0,
+}

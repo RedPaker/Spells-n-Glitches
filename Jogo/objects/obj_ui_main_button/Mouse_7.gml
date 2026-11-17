@@ -1,4 +1,5 @@
 image_index = 1;
+audio_play_sound(snd_switch_spell,16,false);
 
 switch (button_id) {
 

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fonte",
-    "path":"sprites/spr_fonte/spr_fonte.yy",
+    "name":"fonte",
+    "path":"sprites/fonte/fonte.yy",
   },
   "spriteMaskId":null,
   "visible":true,

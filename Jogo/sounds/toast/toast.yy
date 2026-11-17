@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"toast",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.64863944,
+  "exportDir":"",
+  "name":"toast",
+  "parent":{
+    "name":"SoundEffecs",
+    "path":"folders/[Angry_bird_listening_img]/SoundEffecs.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"toast.wav",
+  "volume":1.0,
+}

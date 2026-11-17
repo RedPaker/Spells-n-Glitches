@@ -2,6 +2,7 @@
 if(hint_id == 1 and ativou == false and global.quests.mouse == true){
     alarm[0] = 120;
     ativou = true;
+    audio_play_sound(toast,32,false);
 }
 
 if (sumindo == true) {

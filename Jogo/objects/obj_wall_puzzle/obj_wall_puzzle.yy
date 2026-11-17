@@ -3,7 +3,6 @@
   "%Name":"obj_wall_puzzle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_wall_puzzle",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_barreira",
-    "path":"sprites/spr_barreira/spr_barreira.yy",
+    "name":"spr_portao",
+    "path":"sprites/spr_portao/spr_portao.yy",
   },
   "spriteMaskId":{
     "name":"spr_barreira",

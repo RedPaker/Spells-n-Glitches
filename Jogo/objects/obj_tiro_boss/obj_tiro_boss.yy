@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_yellow",
-    "path":"sprites/spr_yellow/spr_yellow.yy",
+    "name":"spr_tiro",
+    "path":"sprites/spr_tiro/spr_tiro.yy",
   },
   "spriteMaskId":null,
   "visible":true,
