@@ -86,9 +86,9 @@
     {"name":"inst_2AC226C3","path":"rooms/rm_fase_1/rm_fase_1.yy",},
     {"name":"inst_1A0E985A","path":"rooms/rm_fase_1/rm_fase_1.yy",},
     {"name":"inst_270028CE","path":"rooms/rm_fase_1/rm_fase_1.yy",},
-    {"name":"inst_2F13B4DA","path":"rooms/rm_fase_1/rm_fase_1.yy",},
     {"name":"inst_71037801","path":"rooms/rm_fase_1/rm_fase_1.yy",},
     {"name":"inst_7B9B7031","path":"rooms/rm_fase_1/rm_fase_1.yy",},
+    {"name":"inst_55BD2048","path":"rooms/rm_fase_1/rm_fase_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -167,7 +167,11 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp_parent","path":"objects/obj_warp_parent/obj_warp_parent.yy",},"propertyId":{"name":"warpto_x","path":"objects/obj_warp_parent/obj_warp_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp_parent","path":"objects/obj_warp_parent/obj_warp_parent.yy",},"propertyId":{"name":"warpto_y","path":"objects/obj_warp_parent/obj_warp_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"175",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":336.0,},
-        {"$GMRInstance":"v4","%Name":"inst_2F13B4DA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F13B4DA","objectId":{"name":"obj_warparc8","path":"objects/obj_warparc8/obj_warparc8.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":6.875,"x":1458.0,"y":359.0,},
+        {"$GMRInstance":"v4","%Name":"inst_55BD2048","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55BD2048","objectId":{"name":"obj_warp_parent","path":"objects/obj_warp_parent/obj_warp_parent.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp_parent","path":"objects/obj_warp_parent/obj_warp_parent.yy",},"propertyId":{"name":"warpto_room","path":"objects/obj_warp_parent/obj_warp_parent.yy",},"resource":{"name":"rm_arcadeenter","path":"rooms/rm_arcadeenter/rm_arcadeenter.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_arcadeenter",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp_parent","path":"objects/obj_warp_parent/obj_warp_parent.yy",},"propertyId":{"name":"warpto_x","path":"objects/obj_warp_parent/obj_warp_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp_parent","path":"objects/obj_warp_parent/obj_warp_parent.yy",},"propertyId":{"name":"warpto_y","path":"objects/obj_warp_parent/obj_warp_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"258",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-0.07661668,"scaleX":1.0,"scaleY":7.25,"x":1457.9906,"y":365.0,},
       ],"layers":[],"name":"Misc","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Structures","depth":200,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_6D743FCA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D743FCA","objectId":{"name":"obj_casa1","path":"objects/obj_casa1/obj_casa1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":104.0,"y":328.0,},

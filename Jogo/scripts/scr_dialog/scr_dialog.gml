@@ -104,8 +104,7 @@ function d_select_dialog(_is){
                     msg: "..."
                 }
             ];
-           ;
-
+            break;
         case "tutorial_binario_dialog":
             return_value = [
                 {

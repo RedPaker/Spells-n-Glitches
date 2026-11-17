@@ -9,11 +9,9 @@ if state == "explode"{
             obj_arceight_body.kapows--;
         }else {
             obj_arceight_body.hp -= 5;
-            show_debug_message(obj_arceight_body.hp);
             var _texto = instance_create_layer(obj_arceight_body.x, obj_arceight_body.y-12, "instances",obj_damage_count);
             _texto.dano = 5
         }
-        show_debug_message(obj_arceight_body.kapows);
     }
     state = "done"
 }
