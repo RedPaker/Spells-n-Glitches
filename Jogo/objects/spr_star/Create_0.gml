@@ -2,4 +2,4 @@
 event_inherited();
 
 
-dialog = "hghhg"
+dialog = d_select_dialog("hghhg",id)
