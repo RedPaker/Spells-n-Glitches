@@ -24,4 +24,8 @@ if (global.ataque_desbloqueado && instance_exists(obj_mouse)) {
     }
 }
 
+if (obj_plr_rpg.coletou_livro == true) {
+    layer_set_visible("GuiLayer",true);
+}
+
 instance_destroy();
