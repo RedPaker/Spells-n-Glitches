@@ -35,7 +35,7 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "U+003A",
-                    msg: "Aquela explosão expalhou uma infecção viral por todo o mundo,\n mas parece que ela afeta apenas computatores mais recentes..."
+                    msg: "Aquela explosão expalhou uma infecção viral por todo o mundo, mas parece que ela afeta apenas computatores mais recentes..."
                 },
                 {
                     name: "U+003A",
@@ -44,27 +44,6 @@ function d_select_dialog(_is){
                 {
                     name: "0x43",
                     msg: "O-okay"
-                }
-            ];
-            break;
-
-        case "fuga_dialog":
-            return_value = [
-                {
-                    name: "Morador",
-                    msg: "im dead"
-                },
-                {
-                    name: "0x43",
-                    msg: "holy shit"
-                },
-                {
-                    name: "Morador",
-                    msg: "pega meu mouse."
-                },
-                {
-                    name: "Morador",
-                    msg: "okay"
                 }
             ];
             break;
@@ -89,7 +68,7 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "Porteiro",
-                    msg: "O problema que eu perdi o papel que incluia a senha para a abertura dos portões para enviar na torre de sinal \\:"
+                    msg: "O problema que eu perdi o papel que incluia a senha para a abertura dos portões para enviar na torre de sinal:"
                 },
                 {
                     name: "0x43",
@@ -121,7 +100,7 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "U+003A",
-                    msg: "Um número em binário é um número na base 2,\n ou seja, 0 e 1."
+                    msg: "Um número em binário é um número na base 2, ou seja, 0 e 1."
                 },
                 {
                     name: "U+003A",
@@ -133,11 +112,11 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "U+003A",
-                    msg: "Para transformar em binário\n precisamos fazer a divisão de 44 por 2."
+                    msg: "Para transformar em binário precisamos fazer a divisão de 44 por 2."
                 },
                 {
                     name: "U+003A",
-                    msg: "O resultado é 22 e o resto é 0.\n LEMBRE DO RESTO!!!!!!"
+                    msg: "O resultado é 22 e o resto é 0. LEMBRE DO RESTO!!!!!!"
                 },
                 {
                     name: "U+003A",
@@ -149,11 +128,11 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "U+003A",
-                    msg: "Repita a divisão até o resultado ser zero,\n anotando os restos."
+                    msg: "Repita a divisão até o resultado ser zero, anotando os restos."
                 },
                 {
                     name: "U+003A",
-                    msg: "Por fim, pegue os restos e escreva o número em binário.\n COMECE A ESCREVER PELO RESTO DA ÚLTIMA DIVISÃO!"
+                    msg: "Por fim, pegue os restos e escreva o número em binário. COMECE A ESCREVER PELO RESTO DA ÚLTIMA DIVISÃO!"
                 },
                 {
                     name: "0x43",
@@ -161,7 +140,7 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "U+003A",
-                    msg: "Faça isso com 183. Divida por dois, anote os restos,\n e monte o número começando pelo último resto."
+                    msg: "Faça isso com 183. Divida por dois, anote os restos, e monte o número começando pelo último resto."
                 }
             ];
             break;
@@ -198,7 +177,7 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "Estranho",
-                    msg: "Tá VeNDo EsSas MemoRIaS?\n VaI Lá e CaLIBRA elAs PRa mIm"
+                    msg: "Tá VeNDo EsSas MemoRIaS? VaI Lá e CaLIBRA elAs PRa mIm"
                 },
                 {
                     name: "0x43",
@@ -235,7 +214,7 @@ function d_select_dialog(_is){
             return_value = [
                 {
                     name: "U+003A",
-                    msg: "Boa! Isso deve ter aberto o portão. Vamos lá embaixo ver se\n deu certo."
+                    msg: "Boa! Isso deve ter aberto o portão. Vamos lá embaixo ver se deu certo."
                 }
             ];
             break;
@@ -248,11 +227,11 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "0x43",
-                    msg: "Esta acontecendo um apocalipse no exterior e estou tentando\n impedilo."
+                    msg: "Esta acontecendo um apocalipse no exterior e estou tentando impedi-lo."
                 },
                 {
                     name: "Ancião",
-                    msg: "Eu tenho algo que pode te ajudar. É um artefato que invoca\n poderes inacreditáveis."
+                    msg: "Eu tenho algo que pode te ajudar. É um artefato que invoca poderes inacreditáveis."
                 },
                 {
                     name: "0x43",
@@ -260,7 +239,7 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "Ancião",
-                    msg: "Ho ho ho... Claro que sim. Mas eu perdi as páginas deles\n quando moleque, o MSN ainda era famoso..."
+                    msg: "Ho ho ho... Claro que sim. Mas eu perdi as páginas deles quando moleque, o MSN ainda era famoso..."
                 },
                 {
                     name: "0x43",
@@ -268,7 +247,7 @@ function d_select_dialog(_is){
                 },
                 {
                     name: "Ancião",
-                    msg: "Ache as páginas, monte os programas e faça churrasquinho\n desses vírus."
+                    msg: "Ache as páginas, monte os programas e faça churrasquinho desses vírus."
                 },
                 {
                     name: "0x43",
@@ -331,14 +310,14 @@ function d_explicar_bloco(_obj) {
         case "obj_bloco_print":
             return [
                 { name: "U+003A", msg: "Esse é o bloco PRINT!" },
-                { name: "U+003A", msg: "Ele mostra uma mensagem no terminal.\n Use para saber o que o programa esta fazendo." }
+                { name: "U+003A", msg: "Ele mostra uma mensagem no terminal. Use para saber o que o programa esta fazendo." }
             ];
 
         case "obj_bloco_while":
             if (obj_spellbook.pagina_atual != 5) {
                 return [
                     { name: "U+003A", msg: "Esse é o WHILE, o bloco de repetição." },
-                    { name: "U+003A", msg: "Tudo que ficar dentro dele se repete\n enquanto a condição for verdadeira." }
+                    { name: "U+003A", msg: "Tudo que ficar dentro dele se repete enquanto a condição for verdadeira." }
                 ];
             } else {
                 return [
@@ -350,7 +329,7 @@ function d_explicar_bloco(_obj) {
         case "obj_bloco_if":
             return [
                 { name: "U+003A", msg: "Esse é o IF." },
-                { name: "U+003A", msg: "Ele só executa o que está dentro\n se a condição for verdadeira." }
+                { name: "U+003A", msg: "Ele só executa o que está dentro se a condição for verdadeira." }
             ];
 
         case "obj_bloco_import_time":
@@ -371,13 +350,13 @@ function d_intro_livro(_passo) {
     switch (_passo) {
         case 0: return [
             { name: "U+003A", msg: "Oi! Que bom que você abriu o livro de feitiços!" },
-            { name: "U+003A", msg: "Aqui os feitiços são escritos em PYTHON,\n uma linguagem de programação de verdade." },
-            { name: "U+003A", msg: "Em vez de digitar, você monta o código\n encaixando blocos." }
+            { name: "U+003A", msg: "Aqui os feitiços são escritos em PYTHON, uma linguagem de programação de verdade." },
+            { name: "U+003A", msg: "Em vez de digitar, você monta o código encaixando blocos." }
         ];
 
         case 1: return [
             { name: "U+003A", msg: "Essa área é o seu código. Cada linha recebe um bloco." },
-            { name: "U+003A", msg: "O programa é lido de cima para baixo,\n uma linha de cada vez." }
+            { name: "U+003A", msg: "O programa é lido de cima para baixo, uma linha de cada vez." }
         ];
 
         case 2: return [
