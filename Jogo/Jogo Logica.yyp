@@ -24,6 +24,7 @@
     {"$GMFolder":"","%Name":"Amigos kkkk (NPCs)","folderPath":"folders/ObjectS/Amigos kkkk (NPCs).yy","name":"Amigos kkkk (NPCs)","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Blocos_livro","folderPath":"folders/ObjectS/Blocos_livro.yy","name":"Blocos_livro","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Feitiços","folderPath":"folders/ObjectS/Feitiços.yy","name":"Feitiços","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sistemas","folderPath":"folders/ObjectS/Sistemas.yy","name":"Sistemas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Inimigos","folderPath":"folders/ObjectS/Inimigos.yy","name":"Inimigos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Itens","folderPath":"folders/ObjectS/Itens.yy","name":"Itens","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Main_Char","folderPath":"folders/ObjectS/Main_Char.yy","name":"Main_Char","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -76,7 +77,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2026.1.0.27",
   },
   "name":"Jogo Logica",
   "resources":[
@@ -256,6 +257,7 @@
     {"id":{"name":"scr_fade","path":"scripts/scr_fade/scr_fade.yy",},},
     {"id":{"name":"scr_paginas","path":"scripts/scr_paginas/scr_paginas.yy",},},
     {"id":{"name":"scr_saving","path":"scripts/scr_saving/scr_saving.yy",},},
+    {"id":{"name":"Script6","path":"scripts/Script6/Script6.yy",},},
     {"id":{"name":"change_spell","path":"sounds/change_spell/change_spell.yy",},},
     {"id":{"name":"Colect","path":"sounds/Colect/Colect.yy",},},
     {"id":{"name":"CriticalTheme","path":"sounds/CriticalTheme/CriticalTheme.yy",},},
