@@ -30,7 +30,7 @@ body {
     margin-top: 60px;
 }
 
-body img {
+.pixel_img {
     image-rendering: pixelated;
 }
 
