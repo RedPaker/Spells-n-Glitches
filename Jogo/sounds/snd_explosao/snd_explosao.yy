@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_explosao",
   "parent":{
-    "name":"SONgs",
-    "path":"folders/[Angry_bird_listening_img]/SONgs.yy",
+    "name":"SoundEffecs",
+    "path":"folders/[Angry_bird_listening_img]/SoundEffecs.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

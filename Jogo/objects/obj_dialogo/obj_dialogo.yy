@@ -10,8 +10,8 @@
   "name":"obj_dialogo",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/ObjectS/UI.yy",
+    "name":"Sistemas",
+    "path":"folders/ObjectS/Sistemas.yy",
   },
   "parentObjectId":null,
   "persistent":false,

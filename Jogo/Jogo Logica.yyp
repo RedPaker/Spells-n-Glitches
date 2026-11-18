@@ -257,6 +257,7 @@
     {"id":{"name":"scr_fade","path":"scripts/scr_fade/scr_fade.yy",},},
     {"id":{"name":"scr_paginas","path":"scripts/scr_paginas/scr_paginas.yy",},},
     {"id":{"name":"scr_saving","path":"scripts/scr_saving/scr_saving.yy",},},
+    {"id":{"name":"Script6","path":"scripts/Script6/Script6.yy",},},
     {"id":{"name":"change_spell","path":"sounds/change_spell/change_spell.yy",},},
     {"id":{"name":"Colect","path":"sounds/Colect/Colect.yy",},},
     {"id":{"name":"CriticalTheme","path":"sounds/CriticalTheme/CriticalTheme.yy",},},

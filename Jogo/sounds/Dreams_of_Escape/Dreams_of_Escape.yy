@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"Dreams_of_Escape",
   "parent":{
-    "name":"SoundEffecs",
-    "path":"folders/[Angry_bird_listening_img]/SoundEffecs.yy",
+    "name":"SONgs",
+    "path":"folders/[Angry_bird_listening_img]/SONgs.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
