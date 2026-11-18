@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_ui_bg_ventanapaisagembliss",
   "bboxMode":0,
-  "bbox_bottom":179,
+  "bbox_bottom":767,
   "bbox_left":0,
-  "bbox_right":319,
+  "bbox_right":1364,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"462d7ca2-fd56-4ccd-91e9-4a1f52cafe36","name":"462d7ca2-fd56-4ccd-91e9-4a1f52cafe36","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5c976647-9785-48f0-95b6-3f92058dbed5","name":"5c976647-9785-48f0-95b6-3f92058dbed5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":180,
+  "height":768,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"762ab093-37c3-4472-a689-99b194ea570f","blendMode":0,"displayName":"default","isLocked":false,"name":"762ab093-37c3-4472-a689-99b194ea570f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"fd034b94-9e54-41ec-ae42-67eee2ab02fa","blendMode":0,"displayName":"default","isLocked":false,"name":"fd034b94-9e54-41ec-ae42-67eee2ab02fa","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_ui_bg_ventanapaisagembliss",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"462d7ca2-fd56-4ccd-91e9-4a1f52cafe36","path":"sprites/spr_ui_bg_ventanapaisagembliss/spr_ui_bg_ventanapaisagembliss.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5119511c-57ce-4be2-b8ff-a9d59d953bc7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5c976647-9785-48f0-95b6-3f92058dbed5","path":"sprites/spr_ui_bg_ventanapaisagembliss/spr_ui_bg_ventanapaisagembliss.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5ee4d094-bc71-44cd-8a6b-a05327cb6718","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":320,
+  "width":1365,
 }

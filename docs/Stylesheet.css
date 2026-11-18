@@ -129,13 +129,14 @@ article {
     box-sizing: border-box;
     gap: 20px;
     flex: 3;
+    align-items: start;
+    align-self: flex-start;
 }
 
 .link-caixa {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(9, 147, 232, 0.6) 80%);
     border: 1px solid rgba(255, 255, 255, 0.75);
     padding: 15px;
-    height: 100%;
     box-sizing: border-box;
     border-radius: 20px;
     text-decoration: none;
