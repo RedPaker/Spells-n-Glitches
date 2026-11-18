@@ -10,8 +10,8 @@
   "name":"obj_fade",
   "overriddenProperties":[],
   "parent":{
-    "name":"Misc",
-    "path":"folders/ObjectS/Misc.yy",
+    "name":"Sistemas",
+    "path":"folders/ObjectS/Sistemas.yy",
   },
   "parentObjectId":null,
   "persistent":true,

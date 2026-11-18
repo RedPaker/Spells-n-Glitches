@@ -24,4 +24,10 @@ if (global.ataque_desbloqueado && instance_exists(obj_mouse)) {
     }
 }
 
+if (room != rm_boss_fase1) {
+    audio_play_sound(Dreams_of_Escape,32,true,1*global.st_music*global.st_master);
+}else {
+    audio_play_sound(CriticalTheme,32,true,1*global.st_music*global.st_master);
+}
+
 instance_destroy();
