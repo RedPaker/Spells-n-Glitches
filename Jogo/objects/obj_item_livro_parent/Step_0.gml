@@ -1,4 +1,8 @@
-
+if (obj_plr_rpg.coletou_livro == false) {
+	visible = false;
+}else {
+	visible = true;
+}
 
 if(place_meeting(x, y, obj_plr_rpg)){
   if(keyboard_check_pressed(ord("Z"))){

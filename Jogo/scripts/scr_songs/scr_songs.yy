@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script6",
+  "%Name":"scr_songs",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script6",
+  "name":"scr_songs",
   "parent":{
     "name":"Scripty",
     "path":"folders/Scripty.yy",

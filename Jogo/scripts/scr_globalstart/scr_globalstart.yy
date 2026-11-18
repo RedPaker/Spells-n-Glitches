@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_globalstart",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_globalstart",
+  "parent":{
+    "name":"Scripty",
+    "path":"folders/Scripty.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

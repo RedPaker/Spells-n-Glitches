@@ -130,6 +130,5 @@ function sv_newgame(){
         { fade: "out", auto: true}
     ], function() {
         room_goto(rm_casa);
-        audio_play_sound(Dreams_of_Escape,32,true,1*global.st_music*global.st_master);
     });
 }

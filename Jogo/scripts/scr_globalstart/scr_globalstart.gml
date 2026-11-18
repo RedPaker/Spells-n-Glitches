@@ -51,7 +51,7 @@ if(!variable_global_exists("st_firsttimeplaying")){
      * ...    
     */
     //Audio
-    global.st_music = 50/100;
-    global.st_soundefects = 50/100;
-    global.st_master = 100/100;
+    global.st_music = 25/100;
+    global.st_soundefects = 25/100;
+    global.st_master = 50/100;
 } 

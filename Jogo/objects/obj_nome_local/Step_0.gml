@@ -1,6 +1,6 @@
 if (!ativo) exit;
 if (estado == 0) {
-    audio_play_sound(toast,32,false);   
+    tocar_sfx(toast,false); 
     anim = min(1, anim + 0.08);
     if (anim >= 1) estado = 1;
 } else if (estado == 1) {

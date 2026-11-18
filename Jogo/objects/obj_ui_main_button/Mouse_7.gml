@@ -1,9 +1,9 @@
 image_index = 1;
-audio_play_sound(snd_switch_spell,16,false);
 
 switch (button_id) {
 
     case 1: // Change Menus
+        tocar_sfx(snd_switch_spell,true);
         switch (button_sub_id) {
             case 1:
                 layer_set_visible(layer_get_id("SavesLayer"), true);
@@ -25,6 +25,7 @@ switch (button_id) {
     break;
 
     case 2:// Change Setting Category
+        tocar_sfx(snd_switch_spell,true);
         switch (button_sub_id) {
             case 1:
                 layer_set_visible(layer_get_id("GameplayLayer"), true);
@@ -54,10 +55,12 @@ switch (button_id) {
     break;
 
     case 4: // Exit
+        tocar_sfx(snd_switch_spell,true);
         game_end();
     break;
 
     case 5: // Load/New Game
+        tocar_sfx(snd_switch_spell,true);
         global.current_save = button_sub_id;
         if (fileexistsload == true) {
             sv_load(button_sub_id);
@@ -71,16 +74,19 @@ switch (button_id) {
             if (state == 0) {
                 state = 1;
                 image_index = 3;
+                tocar_sfx(snd_switch_spell,true);
             } 
             else if (state == 1) {
                 state = 0;
                 sv_delete(button_sub_id);
+                tocar_sfx(snd_bin,true);
                 image_index = 1;
             }
         } 
         else {
             state = 2;
             image_index = 4;
+            tocar_sfx(Fail,true);
         }
     break;
 

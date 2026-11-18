@@ -24,7 +24,7 @@
   "name":"spr_ui_frame",
   "nineSlice":{
     "$GMNineSliceData":"",
-    "bottom":1,
+    "bottom":3,
     "enabled":true,
     "guideColour":[4294902015,4294902015,4294902015,4294902015,],
     "highlightColour":1728023040,
@@ -35,12 +35,12 @@
     "right":1,
     "tileMode":[
       0,
+      1,
       0,
-      0,
-      0,
+      1,
       0,
     ],
-    "top":1,
+    "top":3,
   },
   "origin":0,
   "parent":{
