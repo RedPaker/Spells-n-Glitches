@@ -1,6 +1,6 @@
 input_key = global.st_use;
 can_talk = false;
-dialog1 = -1;
+dialogs1 = [];
+dialog_id = 0;
 reach = 13;
-explicar = false;
 times = 0;

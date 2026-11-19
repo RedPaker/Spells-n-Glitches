@@ -5,10 +5,12 @@ if (instance_exists(obj_plr_rpg) && distance_to_object(obj_plr_rpg) < reach){
     if (keyboard_check_pressed(input_key)){
         switch (dialog_id) {
         	case 0:
-                d_create_dialog(dialog1, id);
+                d_create_dialog(dialogs1[times], id);
+                if (times<1) {
+                	times++
+                }
                 break;
         }
-        d_create_dialog(dialog, id);
     }
 } else {
 	can_talk = false;

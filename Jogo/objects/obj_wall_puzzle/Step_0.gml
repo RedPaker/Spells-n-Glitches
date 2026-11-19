@@ -3,5 +3,5 @@ if (global.quests.binario == false) {
     mask_index = spr_portao;
 }else {
     image_index = 1;
-    mask_index = -1;
+    mask_index = spr_narrador;
 }

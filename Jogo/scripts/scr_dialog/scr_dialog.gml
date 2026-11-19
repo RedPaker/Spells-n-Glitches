@@ -275,13 +275,70 @@ function d_select_dialog(_is){
                 }
             ];
             break
-    default:
-        return_value = [
-            {
-                name: "0x43",
-                msg: "..."
-            }
-        ]
+        case "VentanaMedo":
+            return_value = [
+                {
+                    name: "Ventana",
+                    msg: "OQUE ESTA ACONTENCENDO??????"
+                }
+            ];
+            break;
+        case "VentanaSob":
+            return_value = [
+                {
+                    name: "Ventana",
+                    msg: ":sob:"
+                }
+            ];
+            break;
+        case "FlowerTalk":
+            return_value = [
+                {
+                    name: "Flower",
+                    msg: "Aparentemente estas criaturas infectam apenas computadores mais modernos."
+                },
+                {
+                    name: "Flower",
+                    msg: "Pegue isto e vá no meu lugar, com certeza eles não podem te infectar"
+                },
+                {
+                    name: "0x43",
+                    msg: "Ouch :("
+                },
+            ];
+            break;
+        case "FlowerGo":
+            return_value = [
+                {
+                    name: "Flower",
+                    msg: "Vá logo!"
+                },
+                {
+                    name: "0x43",
+                    msg: ">:("
+                },
+            ];
+            break;
+        case "VentanaShake":
+            return_value = [
+                {
+                    name: "0x43",
+                    msg: "Você ta bem?"
+                },
+                {
+                    name: "0x43",
+                    msg: "*tremendo*"
+                },
+            ];
+            break;
+        default:
+            return_value = [
+                {
+                    name: "0x43",
+                    msg: "..."
+                }
+            ]
+            break
     }
 
     return return_value;
@@ -293,7 +350,9 @@ global.char_colors = {
     "Morador": c_lime,
     "Ancião": c_yellow,
     "Porteiro": c_orange,
-    "???": c_gray
+    "Ventana": c_black,
+    "Flower": c_black,
+    "???": c_gray,
 };
 
 global.sprites = {
@@ -302,6 +361,8 @@ global.sprites = {
     "Porteiro":spr_green,
     "Ancião": spr_speak_1,
     "Morador": spr_magenta,
+    "Ventana": spr_speak_ventana,
+    "Flower": spr_speak_flower,
     "???": spr_narrador
 };
 
