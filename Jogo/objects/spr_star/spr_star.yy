@@ -3,6 +3,7 @@
   "%Name":"spr_star",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"spr_star",
@@ -12,8 +13,8 @@
     "path":"folders/ObjectS/Amigos kkkk (NPCs).yy",
   },
   "parentObjectId":{
-    "name":"obj_npc_parent",
-    "path":"objects/obj_npc_parent/obj_npc_parent.yy",
+    "name":"obj_npc_parentmultiplos",
+    "path":"objects/obj_npc_parentmultiplos/obj_npc_parentmultiplos.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

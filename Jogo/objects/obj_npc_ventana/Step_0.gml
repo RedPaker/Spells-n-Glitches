@@ -1,6 +1,7 @@
 if (instance_exists(obj_dialogo)) exit;
 var _crnt_dialog = "";
-    
+
+
 if (instance_exists(obj_plr_rpg) && distance_to_object(obj_plr_rpg) < reach){
     can_talk = true;
     if (keyboard_check_pressed(input_key)){

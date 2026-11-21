@@ -1,5 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
-
-dialog = d_select_dialog("hghhg",id)
+dialogs1dot1 = ["default","default","default","default","default","default","StarGo","default"];
+dialogs1dot2 = ["StarFirstFound"];
+dialogs1dot3 = ["StarGive","default","default","default","default","default","default","StarGo"];
+item_criado = false;
+dialogtimes = [0,0,0]

@@ -5,8 +5,8 @@
   "locked":false,
   "name":"RoomUI",
   "parent":{
-    "name":"Jogo Logica",
-    "path":"Jogo Logica.yyp",
+    "name":"Spells-n-Glitches",
+    "path":"Spells-n-Glitches.yyp",
   },
   "resourceType":"GMRoomUI",
   "resourceVersion":"2.0",

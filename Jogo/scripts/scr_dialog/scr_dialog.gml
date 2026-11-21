@@ -326,8 +326,48 @@ function d_select_dialog(_is){
                     msg: "Você ta bem?"
                 },
                 {
-                    name: "0x43",
+                    name: "Ventana",
                     msg: "*tremendo*"
+                },
+            ];
+            break;
+        case "StarGo":
+            return_value = [
+                {
+                    name: "???",
+                    msg: "vá embora."
+                }
+            ];
+            break;
+        case "StarFirstFound":
+            return_value = [
+                {
+                    name: "V3NT4N4Star",
+                    msg: "OMGGGG VOCÊ ME ENCONTROU!!"
+                },
+                {
+                    name: "V3NT4N4Star",
+                    msg: "iNFELISMENTE gARANTO QuE NÃO TENHO NaDA A ENTREGAR PARA Ti NESTA *HORA*, VOLTE sEMPRE"
+                },
+                {
+                    name: "0x43",
+                    msg: "okay?"
+                },
+            ];
+            break;
+        case "StarGive":
+            return_value = [
+                {
+                    name: "V3NT4N4Star",
+                    msg: "OBRIGADO POR CHEGAR NA HORA, POR CON5ISTIR APENAS DE UMA DEMO APENAS 2 FEITIÇOS ES7ÃO DIPONIVEIS "
+                },
+                {
+                    name: "V3NT4N4Star",
+                    msg: "COMO VOCÊ ESTA 4QUI, POSSO TE LIBERA9 COM UM FEITIÇO FUTURO. "
+                },
+                {
+                    name: "0x43",
+                    msg: "ty"
                 },
             ];
             break;
@@ -352,6 +392,7 @@ global.char_colors = {
     "Porteiro": c_orange,
     "Ventana": c_black,
     "Flower": c_black,
+    "V3NT4N4Star": #fce158,
     "???": c_gray,
 };
 
@@ -363,6 +404,7 @@ global.sprites = {
     "Morador": spr_magenta,
     "Ventana": spr_speak_ventana,
     "Flower": spr_speak_flower,
+    "V3NT4N4Star": spr_speak_star,
     "???": spr_narrador
 };
 

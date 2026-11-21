@@ -1,6 +1,6 @@
 if (instance_exists(obj_dialogo)) exit;
 if (times == 1 and !item_criado) {
-    instance_create_layer(x, y + 24, "Itens", obj_pagina_restart);
+    instance_create_layer(x, y + 24, "Itens", obj_pagina_ventoinha);
     item_criado = true;
 }
 var _crnt_dialog = "";    

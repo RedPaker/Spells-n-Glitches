@@ -10,12 +10,14 @@ switch (button_id) {
                 layer_set_visible(layer_get_id("MainLayer"), false);
             break;
             case 2:
-                layer_set_visible(layer_get_id("SettingsLayer"), true);
-                layer_set_visible(layer_get_id("MainLayer"), false);
+                tocar_sfx(Fail);
+                //layer_set_visible(layer_get_id("SettingsLayer"), true);
+                //layer_set_visible(layer_get_id("MainLayer"), false);
             break;
             case 3:
-                layer_set_visible(layer_get_id("SavesLayer"), true);
-                layer_set_visible(layer_get_id("MainLayer"), false);
+                tocar_sfx(Fail);
+                //layer_set_visible(layer_get_id("SavesLayer"), true);
+                //layer_set_visible(layer_get_id("MainLayer"), false);
             break;
             default:
                 layer_set_visible(layer, false);
